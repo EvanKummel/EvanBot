@@ -9,11 +9,13 @@ module.exports = {
 
         amount = args[0];
 
+        amount ++
+
         if (!amount || isNaN(amount) ||amount < 1 || amount > 100) {
             return message.reply("Merci de spécifier un nombre entre 1 et 100 !")
         }
         
-        message.channel.messages.fetch({limit: amount + 1}).then(messages => {
+        message.channel.messages.fetch({limit: amount}).then(messages => {
             message.channel.bulkDelete(messages);
             })
     }
