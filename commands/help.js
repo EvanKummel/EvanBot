@@ -21,6 +21,8 @@ module.exports = {
             .addField("*tempmute", "Mute Temporairement un Joueur défini")
             .addField("*unmute", "Unmute un Joueur défini")
             .addField("*kick", "Expulse un Joueur défini")
+            .addField("*nick", "Changer le Pseudo d'un Joueur sur le Serveur")
+            .addField("*reset", "Réinitialiser le Pseudo d'un Joueur sur le Serveur")
             .addField("*traduction", "Traduire de n'importe quelle langue vers le Français")
             .addField("*image", "Affiche l'image de votre choix")
             .addField("*avatar", "Affiche l'avatar de l'utilisateur de votre choix")
