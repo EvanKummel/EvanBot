@@ -21,6 +21,7 @@ module.exports = {
             .addField("*tempmute", "Mute Temporairement un Joueur défini")
             .addField("*unmute", "Unmute un Joueur défini")
             .addField("*kick", "Expulse un Joueur défini")
+            .addField("*move", "Déplace un utilisateur défini dans votre salon vocal")
             .addField("*nick", "Changer le Pseudo d'un Joueur sur le Serveur")
             .addField("*reset", "Réinitialiser le Pseudo d'un Joueur sur le Serveur")
             .addField("*traduction", "Traduire de n'importe quelle langue vers le Français")
@@ -28,7 +29,7 @@ module.exports = {
             .addField("*avatar", "Affiche l'avatar de l'utilisateur de votre choix")
             .addField("*uptime", "Affiche le Temps en Ligne du Bot depuis ça Dernière Session")
             .setTimestamp()
-            .setFooter("Appartenance a Evan K#8428", "https://cdn.discordapp.com/avatars/516695450896826398/48aed792ec82c3521454bae2fcc4b84d.png?size=128");
+            .setFooter("Appartenance à Evan K#8428", "https://cdn.discordapp.com/avatars/516695450896826398/48aed792ec82c3521454bae2fcc4b84d.png?size=128");
         message.channel.send({ embeds: [embed]})
     }
 };
