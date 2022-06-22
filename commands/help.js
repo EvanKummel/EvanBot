@@ -22,7 +22,7 @@ module.exports = {
             .addField("*unmute", "Unmute un Joueur défini")
             .addField("*kick", "Expulse un Joueur défini")
             .addField("*move", "Déplace un utilisateur défini dans votre salon vocal")
-            .addField("*nick", "Changee le Pseudo d'un Joueur sur le Serveur")
+            .addField("*nick", "Change le Pseudo d'un Joueur sur le Serveur")
             .addField("*reset", "Réinitialise le Pseudo d'un Joueur sur le Serveur")
             .addField("*traduction", "Traduire de n'importe quelle langue vers le Français")
             .addField("*image", "Affiche l'image de votre choix")
